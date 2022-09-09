@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print the size of various types
- *
- * Description: print the size of various types on the computer
- * This C programme prints the size of various types 
- * Return: 0
- */
+* main - print the size of various types
+*
+* Description: print the size of various types on the computer
+* This C programme prints the size of various types 
+* Return: 0
+*/
 int main(void)
 {
 	char c;
