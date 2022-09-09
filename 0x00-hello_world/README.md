@@ -1,1 +1,1 @@
-Generate C assemble code
+Compile and create executable
