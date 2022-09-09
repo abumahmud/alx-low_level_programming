@@ -1,11 +1,11 @@
-#include <stdio.h>i
+#include <stdio.h>
 
 /**
  * main - print the string in function puts
  *
  * Description: prints the size of various types
  *
- * This C program prints the size of various size on the computer...
+ * This C program prints the size of various size on the computer
  * Return: 0
  */
 int main(void)
