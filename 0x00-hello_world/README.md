@@ -1,1 +1,1 @@
-Compile no link
+Generate C assemble code
