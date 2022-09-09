@@ -1,1 +1,1 @@
-Print witha new line
+Print using printf
