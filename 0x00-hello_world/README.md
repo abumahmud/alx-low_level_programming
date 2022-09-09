@@ -1,1 +1,1 @@
-Prints the size of various types
+Print the size of various types
