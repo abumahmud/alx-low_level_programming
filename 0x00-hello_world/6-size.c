@@ -3,10 +3,10 @@
 /**
 * main - print the size of various types
 *
-* Description: print the size of various types on the computer
-* 
+* Description: print the size of various types on the computer 
 * Return: 0
 */
+
 int main(void)
 {
 	char c;
