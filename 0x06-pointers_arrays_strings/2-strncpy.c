@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * _strncpy - C function that copies a string, including the term.
+ * _strncpy - C function that copies a string, including the termina
  * null byte, using at most an inputted number of bytes. if the 
  * length of the source stringis less than the maximum byte number,
  * the remainder of the destination string is filled with null bytes.
