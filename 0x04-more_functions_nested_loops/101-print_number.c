@@ -1,41 +1,21 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_number - prints an integer
- * @n: random integer
- * Return: void
+ * print_number - Prints a number
+ * @n: The number to print
  */
+
 void print_number(int n)
 {
-	char ld, cr;
-	int r;
-	int ct = 0;
-
 	if (n < 0)
 	{
-		_putchar ('_');
-		ld = (char)('0' - (n % 10));
-		n = n / -10;
+		putchar('-');
+		num = -num;
 	}
-	else
+	if (num > 9)
 	{
-		ld = (char)((n % 10) + '0');
-		n = n / 10;
+		print_number(num / 10);
 	}
-
-	r = 0;
-	while (n > 0)
-	{
-		r = r * 10 + (n % 10);
-		n = n / 10;
-		ct++;
-	}
-	
-	while (r > 0)
-	{
-		cr = (char)((r % 10) + '0');
-		_putchar(cr);
-		r = r / 10;
-		ct--;
-	}
+	putchar(num % 10 + '0');
 }
