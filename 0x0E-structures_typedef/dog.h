@@ -1,17 +1,17 @@
-#ifndef STRTYP
-#define STRTYP
+#ifndef DOG_H_FILE
+#define DOG_H_FILE
 /**
  * struct dog - A new type describing a dog.
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
 /**
  * dog_t - Typedef for struct dog
